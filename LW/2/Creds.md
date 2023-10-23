@@ -29,3 +29,4 @@
 | 25 |  Ширшов Даниил         | d_shirshov | 1TNa74uv1MZCi |
 | 26 |  Щапов Андрей          | a_shiapov | cxPbBwdouPKab |
 | 27 |  Явметдинов Максим     | m_yavmetdinov | ypZOru6SeNkdZ |
+| 28 |  Шералиев Сино         | s_sheraliev | 1sVLUJGvzOqMm |
