@@ -15,7 +15,7 @@ typedef struct {
     StackNode *head;
 } Stack;
 
-Stack *stack_create(size_t stack_size);
+Stack *stack_create();
 
 StackNode *insert_stack_node(StackNode *parent, Item value);
 

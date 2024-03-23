@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     }
     Iterator *it = iter_create(l);
 
-    while (iter_next(it)) {
+    while (iter_next(it) != NULL) {
         printf("%d\n", iter_get(it));
     }
 

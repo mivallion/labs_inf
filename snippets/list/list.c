@@ -14,12 +14,7 @@ void list_insert(ListNode *after_node, Item value)
 {
     ListNode *inserted = (ListNode*) malloc(sizeof(ListNode));
     inserted->data = value;
-    
-    if (after_node->next == NULL) {
-        inserted->next = NULL;
-    } else {
-        inserted->next = after_node->next;
-    }
+    inserted->next = after_node->next;
     after_node->next = inserted;
 }
 

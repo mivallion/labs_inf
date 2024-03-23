@@ -3,7 +3,7 @@
 
 #include "stack_list.h"
 
-Stack *stack_create(size_t stack_size)
+Stack *stack_create()
 {
     Stack *s = (Stack *) malloc(sizeof(Stack));
     s->head = NULL;

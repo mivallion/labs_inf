@@ -16,7 +16,7 @@ typedef struct {
     QueueNode *last;
 } Queue;
 
-Queue *queue_create(size_t queue_size)
+Queue *queue_create()
 {
     Queue *q = (Queue *) malloc(sizeof(Queue));
     q->head = q->last = NULL;

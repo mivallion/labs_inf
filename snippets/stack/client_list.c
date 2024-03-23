@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     int val;
-    Stack *s = stack_create(100);
+    Stack *s = stack_create();
 
     while (scanf("%d", &val) == 1)
         stack_push(s, val);

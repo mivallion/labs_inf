@@ -3,7 +3,7 @@
 Iterator *iter_create(List *list)
 {
     Iterator *iter = (Iterator *) malloc(sizeof(Iterator));
-    iter->node = list->head->next;
+    iter->node = list->head;
 }
 
 ListNode *iter_next(Iterator *iter)

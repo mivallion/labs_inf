@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "queue_array.h"
+#include "queue_list.h"
 
 int main(int argc, char *argv[])
 {
     int val;
-    Queue *q = queue_create(100);
+    Queue *q = queue_create();
 
     while (scanf("%d", &val) == 1)
         queue_put(q, val);

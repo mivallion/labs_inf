@@ -16,9 +16,10 @@ void string_init(String *s)
 
 void string_add(String *s, char c)
 {
-    s->string = realloc(s->string, s->length + 1);
+    s->string = realloc(s->string, s->length * 2);
     s->string[s->length] = c;
-    s->string[++s->length] = '\0';
+    s->length++;
+    s->string[s->length] = '\0';
 }
 
 void string_copy(String *from, String *to)
